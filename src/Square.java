@@ -12,4 +12,8 @@ public class Square {
     public void setSquareBase(float squareBase) {
         this.squareBase = squareBase;
     }
+    public double calcArea(double base){
+        double area = Math.pow(base,2);
+        return area;
+    }
 }

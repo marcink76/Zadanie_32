@@ -22,4 +22,9 @@ public class Triangle {
     public void setTriangleBase(double triangleBase) {
         this.triangleBase = triangleBase;
     }
+
+    public double calcPerimeter(double triangleSide){
+        double perimeter = 3 * triangleSide;
+        return  perimeter;
+    }
 }

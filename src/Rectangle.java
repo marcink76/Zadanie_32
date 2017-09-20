@@ -22,4 +22,9 @@ public class Rectangle {
     public void setRectWidth(double rectWidth) {
         this.rectWidth = rectWidth;
     }
+
+    public double calcArea(double width, double height){
+        double area = width * height;
+        return area;
+    }
 }
