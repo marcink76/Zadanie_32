@@ -3,7 +3,7 @@ public class Main {
         //Pole i obwód prostokąta
         Rectangle rectangle = new Rectangle();
         rectangle.setRectHeight(100.0);
-        rectangle.setRectWidth(50.0);
+        rectangle.setSquareBase(50.0);
         ShapeCalculator.rectArea(rectangle);
         ShapeCalculator.rectPerimeter(rectangle);
 
@@ -32,8 +32,8 @@ public class Main {
         ShapeCalculator.triangleArea(triangle);
         ShapeCalculator.trianglePerimeter(triangle); // zakładam, że to jest trójkąt prostokątny ;)
 
-        System.out.println("Metoda z zadania 2.2: " + triangle.calcPerimeter(15)+ "mm"); // zadanie 2.2 tym razem
-        // założyłem, iż jest to trójkąt rownoboczny. ;)
+        System.out.println("Metoda z zadania 2.2: " + triangle.calcPerimeter(15)+ "mm"); /* zadanie 2.2 tym razem
+         założyłem, iż jest to trójkąt rownoboczny. ;) */
 
 
     }

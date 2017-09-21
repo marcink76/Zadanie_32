@@ -1,10 +1,9 @@
-public class Rectangle {
+public class Rectangle extends Square{
     private double rectHeight = 0;
-    private double rectWidth = 0;
 
-    public Rectangle(){
+    public Rectangle() {
+        super();
         this.rectHeight = rectHeight;
-        this.rectWidth = rectWidth;
     }
 
     public double getRectHeight() {
@@ -13,14 +12,6 @@ public class Rectangle {
 
     public void setRectHeight(double rectHeight) {
         this.rectHeight = rectHeight;
-    }
-
-    public double getRectWidth() {
-        return rectWidth;
-    }
-
-    public void setRectWidth(double rectWidth) {
-        this.rectWidth = rectWidth;
     }
 
     public double calcArea(double width, double height){

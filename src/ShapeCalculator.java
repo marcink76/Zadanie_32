@@ -1,11 +1,11 @@
 public class ShapeCalculator {
     public static void rectArea(Rectangle rectangle){
-        double restSquare = rectangle.getRectHeight() * rectangle.getRectWidth();
+        double restSquare = rectangle.getRectHeight() * rectangle.getSquareBase();
         ShowResult.showResult(restSquare, "Pole prostokąta");
     }
 
     public static void rectPerimeter(Rectangle rectangle){
-        double perimeter = (rectangle.getRectHeight() * 2 + rectangle.getRectWidth() * 2 );
+        double perimeter = (rectangle.getRectHeight() * 2 + rectangle.getSquareBase() * 2 );
         ShowResult.showResult(perimeter,"Obwód prostokąta");
     }
 

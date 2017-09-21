@@ -9,7 +9,7 @@ public class Square {
         return squareBase;
     }
 
-    public void setSquareBase(float squareBase) {
+    public void setSquareBase(double squareBase) {
         this.squareBase = squareBase;
     }
     public double calcArea(double base){
